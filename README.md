@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Aplicación del Clima Mundial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es una aplicación web desarrollada con React y TypeScript que permite consultar el clima de cualquier ciudad del mundo utilizando la API de OpenWeatherMap.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- Búsqueda de clima por ciudad
+- Visualización de temperatura en grados Celsius
+- Información sobre humedad y velocidad del viento
+- Interfaz de usuario moderna y responsiva
+- Diseño con Material-UI
 
-### `npm start`
+## Requisitos Previos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Node.js (versión 14 o superior)
+- npm (incluido con Node.js)
+- API Key de OpenWeatherMap
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+1. Clona el repositorio:
+```bash
+git clone [URL_DEL_REPOSITORIO]
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instala las dependencias:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Crea un archivo `.env` en la raíz del proyecto y agrega tu API key:
+```
+REACT_APP_WEATHER_API_KEY=tu_api_key_aqui
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Inicia la aplicación:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Abre tu navegador y ve a `http://localhost:3000`
+2. Ingresa el nombre de una ciudad en el campo de búsqueda
+3. Presiona Enter o haz clic en el botón "Buscar"
+4. La información del clima se mostrará en una tarjeta debajo del campo de búsqueda
 
-### `npm run eject`
+## Tecnologías Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- React
+- TypeScript
+- Material-UI
+- Axios
+- OpenWeatherMap API
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contribuir
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría hacer.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Licencia
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
