@@ -1,26 +1,29 @@
-# Aplicación del Clima Mundial
+# WeatherApp
 
-Esta es una aplicación web desarrollada con React y TypeScript que permite consultar el clima de cualquier ciudad del mundo utilizando la API de OpenWeatherMap.
+Una aplicación del clima moderna y elegante construida con React y TypeScript.
 
 ## Características
 
-- Búsqueda de clima por ciudad
-- Visualización de temperatura en grados Celsius
-- Información sobre humedad y velocidad del viento
-- Interfaz de usuario moderna y responsiva
-- Diseño con Material-UI
+- 🌡️ Muestra información del clima en tiempo real
+- 🔍 Búsqueda de ciudades con autocompletado
+- 🌍 Slider de ciudades populares
+- 🕒 Muestra la hora local de cada ciudad
+- 💨 Información de viento y humedad
+- 🎨 Interfaz moderna y responsive
 
-## Requisitos Previos
+## Tecnologías Utilizadas
 
-- Node.js (versión 14 o superior)
-- npm (incluido con Node.js)
-- API Key de OpenWeatherMap
+- React
+- TypeScript
+- Material-UI (MUI)
+- OpenWeather API
 
 ## Instalación
 
 1. Clona el repositorio:
 ```bash
-git clone [URL_DEL_REPOSITORIO]
+git clone https://github.com/Argexitoo/WeatherApp.git
+cd WeatherApp
 ```
 
 2. Instala las dependencias:
@@ -28,30 +31,30 @@ git clone [URL_DEL_REPOSITORIO]
 npm install
 ```
 
-3. Crea un archivo `.env` en la raíz del proyecto y agrega tu API key:
+3. Crea un archivo `.env` en la raíz del proyecto y añade tu API key de OpenWeather:
 ```
 REACT_APP_WEATHER_API_KEY=tu_api_key_aqui
 ```
+
+Para obtener una API key, regístrate en [OpenWeather](https://openweathermap.org/api).
 
 4. Inicia la aplicación:
 ```bash
 npm start
 ```
 
+La aplicación estará disponible en [http://localhost:3000](http://localhost:3000).
+
 ## Uso
 
-1. Abre tu navegador y ve a `http://localhost:3000`
-2. Ingresa el nombre de una ciudad en el campo de búsqueda
-3. Presiona Enter o haz clic en el botón "Buscar"
-4. La información del clima se mostrará en una tarjeta debajo del campo de búsqueda
-
-## Tecnologías Utilizadas
-
-- React
-- TypeScript
-- Material-UI
-- Axios
-- OpenWeatherMap API
+- Utiliza la barra de búsqueda para encontrar cualquier ciudad
+- Selecciona una ciudad del slider de ciudades populares
+- Visualiza la información detallada del clima incluyendo:
+  - Temperatura actual
+  - Descripción del clima
+  - Hora local
+  - Humedad
+  - Velocidad del viento
 
 ## Contribuir
 
@@ -59,4 +62,4 @@ Las contribuciones son bienvenidas. Por favor, abre un issue primero para discut
 
 ## Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+[MIT](https://choosealicense.com/licenses/mit/)
